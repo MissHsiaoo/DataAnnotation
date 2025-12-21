@@ -1,4 +1,4 @@
-name: deploy: github pages
+name: Deploy to GitHub Pages
 
 on:
   push:
@@ -29,7 +29,7 @@ jobs:
 
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: build   # 你 vite.config.ts 里 outDir 是 build
+          path: build
 
   deploy:
     runs-on: ubuntu-latest
