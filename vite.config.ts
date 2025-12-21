@@ -57,5 +57,5 @@
       port: 3000,
       open: true,
     },
-    base: "/Displayjsondatainterfacecopy/"
+    base: "/DataAnnotation/"
   });
