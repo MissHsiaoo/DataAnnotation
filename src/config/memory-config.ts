@@ -53,6 +53,14 @@ const memoryConfig: MemoryConfig = {
       color: "rgba(254, 215, 170, 0.3)",
       textColor: "rgb(234, 88, 12)",
       keyPrefix: "Relationships"
+    },
+    {
+      id: "unmapping",
+      name: "Unmapping",
+      shortcut: "6",
+      color: "rgba(203, 213, 225, 0.35)",
+      textColor: "rgb(71, 85, 105)",
+      keyPrefix: "Unmapping"
     }
   ],
   defaultCategory: {
